@@ -1,4 +1,4 @@
-function fetchCountries(name) {
+export function fetchCountries(name) {
     return fetch(`https://restcountries.eu/rest/v2/name/${name}`).then(    (response) => {
       if (!response.ok) {
         throw new Error(response.status);
@@ -7,4 +7,4 @@ function fetchCountries(name) {
     })
 }
 
-export default fetchCountries
+// export default fetchCountries

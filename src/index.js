@@ -1,5 +1,5 @@
 import './css/styles.css';
-import fetchCountries from "./js/fetchCountries";
+import { fetchCountries } from "./js/fetchCountries";
 import render from "./js/render";
 import notificate from "./js/notificate";
 
