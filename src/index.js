@@ -18,7 +18,7 @@ function onInput(evt) {
             countries => {
                 if (countries.length === 1) {
                     render.clear()
-                    render.country(countries)
+                    render.country(...countries)
                 };
                 if (countries.length > 1 && countries.length < 11) {
                     render.list(countries)
